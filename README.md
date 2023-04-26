@@ -11,7 +11,7 @@
 3. [Recursos empleados](#recursos-empleados-en-la-construcción-del-proyecto)
 4. [Crisp-DM](#crisp-dm)
 	1. [Entendimiento del negocio](#entendimiento-del-negocio)
-
+5. [Smart Questions](#smart-questions)
 ---
 
 # ChatGPT
@@ -116,3 +116,9 @@ Además de eso, para la interacción por voz hemos usado la API de Google Cloud 
 			 - Estudio de las APIs: Las documentaciones y sitios oficiales de las APIs a usar nos proporcionan todo el conocimiento necesario para el entendimiento de estas.
 			 - Práctica e Implementación: Podemos hacer uso de Python para la implementación de algunos ejemplos de uso sencillos, y de la versión final. 
 				Además, podemos usar otros lenguajes como FXML, CSS, o Java, para la implementación de las otras partes del proyecto tales como la interfaz gráfica.
+
+# Smart Questions
+Las Smart Questions planteadas son las siguientes:
+
+- ¿Cuál es la diferencia entre nuestro producto y los asistentes virtuales convencionales de la última década?
+- ¿Cómo podría nuestro producto aportar más valor a los asistentes virtuales?
