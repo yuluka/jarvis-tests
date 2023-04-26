@@ -12,6 +12,7 @@
 4. [Crisp-DM](#crisp-dm)
 	1. [Entendimiento del negocio](#entendimiento-del-negocio)
 5. [Smart Questions](#smart-questions)
+6. [Descripción de los archivos del repositorio](#descripción-de-los-archivos-del-repositorio)
 ---
 
 # ChatGPT
@@ -122,3 +123,13 @@ Las Smart Questions planteadas son las siguientes:
 
 - ¿Cuál es la diferencia entre nuestro producto y los asistentes virtuales convencionales de la última década?
 - ¿Cómo podría nuestro producto aportar más valor a los asistentes virtuales?
+
+# Descripción de los archivos del repositorio
+A continuación haremos una descripción de los archivos y carpetas que se encuentran en este repositorio para facilitar la comprensión de todo a la hora del estudio:
+
+- Audios: Este folder contiene los audios usados para la realización de las pruebas del desempeño de la API de Google Cloud Speech-to-text.
+- GUI: Este folder contiene los elementos gráficos usados para interfaz gráfica del proyecto.
+- Jarvis-tests: Este es un archivo python de Jupyter notebook en el que hicimos la exploración del funcionamiento de la API de OpenAI.
+- Voice-recognition: Este es otro archivo python de Jupyter notebook, pero fue usado para la exploración de la API de Google Cloud Speech-to-text.
+- MicrophoneStream: Este es un archivo python que contiene la implementación de la clase que usamos para hacer uso de la función de transmisión continua de audio captada por el micrófono del dispositivo.
+- Jarvis: Este es otro python de Jupyter notebook, pero contiene la implementación, ya oficial, de nuestro asistente virtual. 
