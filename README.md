@@ -127,9 +127,22 @@ Las Smart Questions planteadas son las siguientes:
 # Descripción de los archivos del repositorio
 A continuación haremos una descripción de los archivos y carpetas que se encuentran en este repositorio para facilitar la comprensión de todo a la hora del estudio:
 
-- Audios: Este folder contiene los audios usados para la realización de las pruebas del desempeño de la API de Google Cloud Speech-to-text.
-- GUI: Este folder contiene los elementos gráficos usados para interfaz gráfica del proyecto.
-- Jarvis-tests: Este es un archivo python de Jupyter notebook en el que hicimos la exploración del funcionamiento de la API de OpenAI.
-- Voice-recognition: Este es otro archivo python de Jupyter notebook, pero fue usado para la exploración de la API de Google Cloud Speech-to-text.
-- MicrophoneStream: Este es un archivo python que contiene la implementación de la clase que usamos para hacer uso de la función de transmisión continua de audio captada por el micrófono del dispositivo.
-- Jarvis: Este es otro python de Jupyter notebook, pero contiene la implementación, ya oficial, de nuestro asistente virtual. 
+- Pruebas y avances: Esta carpeta contiene los notebooks auxliares que usamos para hacer las pruebas de las API's usadas en el proyecto. Dentro de esta carpeta se encuentran las siguientes cosas:
+	
+	- Audios: Este folder contiene los audios usados para la realización de las pruebas del desempeño de la API de Google Cloud Speech-to-text.
+	
+	- Jarvis-tests: Este es un archivo python de Jupyter notebook en el que hicimos la exploración del funcionamiento de la API de OpenAI.
+	
+	- Voice-recognition: Este es otro archivo python de Jupyter notebook, pero fue usado para la exploración de la API de Google Cloud Speech-to-text.
+
+	- Text-to-speech: Este archivo python de Jupyter notebook contiene las pruebas y los primeros acercamientos que hicimos a la API de conversión de texto en audio.
+
+	- Conversion: Tratando de convertir nuestro proyecto en un archivo ejecutable, encontramos que una forma de hacerlo era mediante la conversión de archivos .py. Para esto, entonces, debimos convertir los notebooks en archivos de este tipo.
+
+- Código: Esta carpeta contiene el código principal de nuestro proyecto. Dentro de esta carpeta se encuentran las siguientes cosas:
+
+	- GUI: Este folder contiene los elementos gráficos usados para interfaz gráfica del proyecto.
+	
+	- MicrophoneStream: Este es un archivo python que contiene la implementación de la clase que usamos para hacer uso de la función de transmisión continua de audio captada por el micrófono del dispositivo.
+	
+	- Jarvis: Este es otro python de Jupyter notebook, pero contiene la implementación, ya oficial, de nuestro asistente virtual. 
